@@ -12,10 +12,10 @@ def countdown(t):
     while True:
         if (until - datetime.datetime.now()).total_seconds() > 0:
             stdout.flush()
-            stdout.write("\r "+Fore.MAGENTA+"<>"+Fore.WHITE+" Attack Send => " + str((until - datetime.datetime.now()).total_seconds()) + " DDOS ")
+            stdout.write("\r "+Fore.MAGENTA+"<>"+Fore.WHITE+" Bắt Đàu Đước 400krq Thôi nhé => " + str((until - datetime.datetime.now()).total_seconds()) + " DDOS ")
         else:
             stdout.flush()
-            stdout.write("\r "+Fore.MAGENTA+"[*]"+Fore.WHITE+" Attack Done !                                   \n")
+            stdout.write("\r "+Fore.MAGENTA+"[*]"+Fore.WHITE+" Xong !                                   \n")
             return
 
 #region get
